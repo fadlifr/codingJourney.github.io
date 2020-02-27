@@ -1,0 +1,175 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/bg3.png)
+}
+
+header {
+    text-align: center;
+}
+
+#tag {
+    position: relative;
+    margin: 100px;
+    padding: 50px;
+}
+
+p {
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {float: left;
+
+}
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 17px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-size: 10px;
+}
+
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #f36f48;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #808080;
+    font-weight: bold;
+    color: white;
+}
+
+.fam {
+    background-color: #c74a5f;
+    font-weight: bolder;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #808080;
+}
+progress::-webkit-progress-bar {
+    background: #808080;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #808080;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+    position: center;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
